@@ -1,0 +1,55 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #696969;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+#lyrics {
+    flex: 2;
+    margin-right: 5px;
+    padding: 5px;
+    border: 5px solid #ccc;
+    background-color: #fff;
+}
+
+#lyrics p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Cursive Font', cursive;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}
+
+
+aside {
+  width: 40%;
+  padding-left: 20px;
+  margin-left: 20px;
+  float: right;
+  font-style: italic;
+  background-color: #fff;
+  border: 5px solid #ccc;
+}
+
+footer {
+    font-style: italic;
+    color: #fff;
+}
